@@ -33,28 +33,49 @@ Tools have been used are:
 ## 📁 Project Structure
 
 todo-fullstack/
-├── todo-frontend/               # React frontend
+
+├── todo-frontend/     
+# React frontend
 │   ├── public/
+
 │   ├── src/
-│   │   ├── App.js               # Main component (UI + axios)
+
+│   │   ├── App.js  
+# Main component (UI + axios)
 │   │   ├── index.js
+
 │   │   └── ...
-│   ├── package.json             # React dependencies
-│   └── .gitignore               # (auto-created by create-react-app)
+│   ├── package.json
+# React dependencies
 
-├── todo-backend/               # Node.js + Express backend
-│   ├── server.js                # Entry point for Express
+│   └── .gitignore        
+# (auto-created by create-react-app)
+
+├── todo-backend/  
+# Node.js + Express backend
+│   ├── server.js  
+# Entry point for Express
 │   ├── models/
-│   │   └── Todo.js              # Mongoose model
-│   ├── routes/
-│   │   └── todoRoutes.js        # All API routes (CRUD)
-│   ├── .env                     # ⚠️ NOT pushed to GitHub (contains secrets)
-│   ├── .env.example             # ✅ Pushed to GitHub (no secrets)
-│   ├── package.json             # Backend dependencies
-│   └── .gitignore               # Contains `.env`, `node_modules`
 
-├── .gitignore                   # Root .gitignore
-├── README.md                    # Full project description
+│   │   └── Todo.js   
+# Mongoose model
+│   ├── routes/
+
+│   │   └── todoRoutes.js   
+# All API routes (CRUD)
+│   ├── .env           
+# ⚠️ NOT pushed to GitHub (contains secrets)
+│   ├── .env.example  
+# ✅ Pushed to GitHub (no secrets)
+│   ├── package.json   
+# Backend dependencies
+│   └── .gitignore     
+# Contains `.env`, `node_modules`
+
+├── .gitignore      
+# Root .gitignore
+├── README.md       
+# Full project description
 
 ----------------------------------------------------------------------------------------------
 
