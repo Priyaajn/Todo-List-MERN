@@ -7,6 +7,7 @@ A fullstack TODO application built using the MERN stack (MongoDB, Express, React
 This fullstack TODO application was created as a practical project to understand how real-world web applications are built using the MERN (MongoDB, Express, React, Node.js) stack. It simulates a task management system where users can organize their daily activities efficiently. The app demonstrates how frontend and backend systems interact using REST APIs and how data is stored and retrieved from a cloud database.
 
 In real-world use, such an app can help individuals, teams, or organizations track tasks, manage productivity, and stay organized. It's a foundational structure that can be extended with features like user authentication, due dates, reminders, and project categories — making it a base for scalable, production-ready task management platforms.
+
 ---------------------------------------------------------------------------------------------------------------------------
 
 ## 🔧 Tech Stack :
@@ -32,13 +33,11 @@ Tools have been used are:
 
 ## 📁 Project Structure
 
-todo-fullstack/
+todo-fullstack:
 
-├── todo-frontend/     
-# React frontend
-│   ├── public/
-
-│   ├── src/
+ todo-frontend  -->  # React frontend
+   *public
+    *src
 
 │   │   ├── App.js  
 # Main component (UI + axios)
