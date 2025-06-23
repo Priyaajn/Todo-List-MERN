@@ -35,9 +35,9 @@ Tools have been used are:
 
 todo-fullstack:
 
- todo-frontend  -->  # React frontend
+ todo-frontend  --> 
    *public
-    *src
+    *src # React frontend
 
 │   │   ├── App.js  
 # Main component (UI + axios)
